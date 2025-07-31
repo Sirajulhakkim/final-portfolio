@@ -7,7 +7,7 @@ export default function About () {
         line3: 'I am currently working as a UI developer at a reputed company. I have worked on many projects and I am always eager to learn new technologies.'
     }
 
-    return <section className='flex flex-col md:flex-row bg-secondary px-5' id='about'>
+    return <section className='flex flex-col md:flex-row bg-secondary p-5' id='about'>
         <div className='py-5 md:w-1/2'>
             <img src={AboutImg} />
         </div>

@@ -22,14 +22,14 @@ export default function Hero() {
 
     return (
      
-            <section className='flex justify-between items-center flex-wrap flex-col-reverse lg:flex-row p-4 lg:p-8 bg-primary '>
+            <section className='flex justify-evenly lg:justify-between items-center  flex-col gap-y-8 lg:flex-row p-4 lg:p-8 bg-primary  h-screen'>
 
-                <div className=" banner-content flex flex-col">
-                    <h1 className=' text-white text-6xl '>Hello, <br /> This is Sirajul Hakkim
-                        <div className='text-2xl'>{config.subtitle}</div>
-                    </h1>
-                   
-                
+                <div className=" banner-content flex flex-col text-white">
+                    <h1 className='  '>Hello, </h1>
+                    <h1>This is <b>Sirajul Hakkim </b> </h1>
+
+                    <h4 className=''><i>{config.subtitle} </i>  </h4>
+
                 
                 </div>
 

@@ -2,7 +2,7 @@ import ResumeImg from '../assets/resume.jpg';
 
 export default function Resume () {
     const config = {
-      link: "https://drive.google.com/file/d/1QBfzIMN3k9sDMbYgRuMhh7h5O22psDBO/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1kEO179qPKXa6gN2VpXDohp0dbD8V0oq-/view?usp=drive_link",
     };
 
     return (
@@ -27,7 +27,7 @@ export default function Resume () {
             <p className="pb-5 flex items-center gap-2">
               You can view my resume
               <a className="btn text-white" href={config.link} download>
-                {" "}
+                
                 Download
               </a>
             </p>

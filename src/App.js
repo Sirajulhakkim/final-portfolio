@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.scss';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -9,7 +9,7 @@ import Resume from './components/Resume';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex flex-col justify-between ">
         <Header/>
         <Hero />
         <About/>
